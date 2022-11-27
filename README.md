@@ -4,6 +4,8 @@
 - [About](#About)
 - [Requirements](#Requirements)
 - [Installation (Ubuntu)](#Installation)
+- [Options)](#Options)
+- [Examples)](#Examples)
 
 
 ### About
@@ -24,7 +26,7 @@
   - option to retain the original filename or add a configurable suffix to it  
     Example: 'original.jpg' --> 'original watermarked.jpg'
   - runs on Windows and Linux  
-    tested on WIndows 11, Ubuntu 22.04.1 LTS
+    tested on Windows 11, Ubuntu 22.04.1 LTS
 
 ### Requirements
 
@@ -114,7 +116,7 @@
     7      3      0
     ```
 
-### options
+### Options
   - -Source  
     tells the script where the pictures are that will be watermarked  
     provide a path to a folder  
