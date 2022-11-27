@@ -241,7 +241,7 @@
     ```
 
 - Example 5
-  - set watermark opacity to 30$
+  - set watermark relative size to 30%
     ```
     & './add-watermark-to-image.ps1' `
     -Source './source' `
@@ -288,6 +288,16 @@
     -WatermarkImage '.\dharma.png' `
     -Destination '.\example9' `
     -Gravity 'NorthEast'
+    ```
+
+- Example 10
+  - set watermark opacity to 30$
+    ```
+    & './add-watermark-to-image.ps1' `
+    -Source './source' `
+    -WatermarkImage './dharma.png' `
+    -Opacity 30 `
+    -Destination './example10'
     ```
 
 ### Known Issues
