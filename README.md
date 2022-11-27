@@ -210,6 +210,8 @@
     -WatermarkImage 'Z:\upload\watermarktest\dharma.png' `
     -Destination 'Z:\upload\watermarktest\example1'
     ```
+  ![example 1 original image](/examples/images/example1 original.png)
+  ![example 1 watermarked image](/examples/images/example1 w.png)
 
 - Example 2
   - uses relative paths
@@ -249,6 +251,7 @@
     -watermarkSizeRel 30 `
     -Destination './example5'
     ```
+    ![example 5 watermarked image](/examples/images/example5.png)
 
 - Example 6
   - adds file name suffix ' watermark'
@@ -289,6 +292,7 @@
     -Destination '.\example9' `
     -Gravity 'NorthEast'
     ```
+    ![example 9 watermarked image](/examples/images/example9.png)
 
 - Example 10
   - set watermark opacity to 30$
@@ -299,6 +303,7 @@
     -Opacity 30 `
     -Destination './example10'
     ```
+    ![example 10 watermarked image](/examples/images/example10.png)
 
 ### Known Issues
 - On Linux, relative paths don't seem to work. Use absolute paths instead
