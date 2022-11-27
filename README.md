@@ -3,7 +3,7 @@
 ### Contents
 - [About](#About)
 - [Requirements](#Requirements)
-- [Installation (Ubuntu)](#Installation)
+- [Installation (Ubuntu)](#Installation(Ubuntu))
 - [Options](#Options)
 - [Examples](#Examples)
 
