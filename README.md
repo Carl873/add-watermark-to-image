@@ -4,7 +4,7 @@
 - [About](#About)
 - [Requirements](#Requirements)
 - [Installation (Ubuntu)](#Installation)
-- [Options)](#Options)
+- [Options](#Options)
 - [Examples)](#Examples)
 
 
