@@ -5,7 +5,7 @@
 - [Requirements](#Requirements)
 - [Installation (Ubuntu)](#Installation)
 - [Options](#Options)
-- [Examples)](#Examples)
+- [Examples](#Examples)
 
 
 ### About
