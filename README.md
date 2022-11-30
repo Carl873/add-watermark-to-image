@@ -6,6 +6,7 @@
 - [Installation (Ubuntu)](#Installation(Ubuntu))
 - [Options](#Options)
 - [Examples](#Examples)
+- [Troubleshooting](#Troubleshooting)
 
 
 ### About
@@ -309,3 +310,13 @@
 
 ### Known Issues
 - On Linux, relative paths don't seem to work. Use absolute paths instead
+
+### Troubleshooting
+- In case of this error,
+  ```
+  /tmp/.mount_magickh88lca/usr/bin/magick: error while loading shared libraries: libharfbuzz.so.0: cannot open shared object file: No such file or directory
+  ```
+  ImageMagick cannot run because something is missing. Fix this by installing libharfbuzz0b
+  ```
+  apt install libharfbuzz0b
+  ```
